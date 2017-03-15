@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rv_header"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="36dp"
+    android:background="@drawable/header_bg">
+
+    <View
+        android:layout_width="4dp"
+        android:layout_height="36dp" />
+
+    <android.support.v7.widget.AppCompatSpinner
+        android:id="@+id/header_spinner"
+        android:layout_width="80dp"
+        android:layout_height="match_parent"
+        android:dropDownWidth="64dp"
+        android:spinnerMode="dropdown">
+    </android.support.v7.widget.AppCompatSpinner>
+
+
+    <Button
+        android:id="@+id/header_button1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.8"
+        android:background="?android:attr/selectableItemBackground"
+        android:text="综合"
+        android:textSize="13sp"
+        android:textColor="@color/colorRed"
+        android:gravity="center"/>
+
+    <View
+        android:layout_width="1px"
+        android:layout_height="15dp"
+        android:layout_gravity="center"
+        android:background="@color/colorFontGray"/>
+
+    <Button
+        android:id="@+id/header_button2"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="?android:attr/selectableItemBackground"
+        android:gravity="center"
+        android:text="工作情感"
+        android:textSize="13sp"
+        android:textColor="@color/colorFontGray" />
+
+    <View
+        android:layout_width="1px"
+        android:layout_height="15dp"
+        android:layout_gravity="center"
+        android:background="@color/colorFontGray"/>
+
+    <Button
+        android:id="@+id/header_button3"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="?android:attr/selectableItemBackground"
+        android:gravity="center"
+        android:text="动漫文化"
+        android:textSize="13sp"
+        android:textColor="@color/colorFontGray" />
+
+    <View
+        android:layout_width="1px"
+        android:layout_height="15dp"
+        android:layout_gravity="center"
+        android:background="@color/colorFontGray"/>
+
+    <Button
+        android:id="@+id/header_button4"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="?android:attr/selectableItemBackground"
+        android:text="漫画小说"
+        android:textSize="13sp"
+        android:textColor="@color/colorFontGray"
+        android:gravity="center"/>
+
+    <View
+        android:layout_width="1px"
+        android:layout_height="15dp"
+        android:layout_gravity="center"
+        android:background="@color/colorFontGray"/>
+
+    <Button
+        android:id="@+id/header_button5"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.7"
+        android:background="?android:attr/selectableItemBackground"
+        android:text="游戏"
+        android:textSize="13sp"
+        android:textColor="@color/colorFontGray"
+        android:gravity="center"/>
+
+
+</LinearLayout>

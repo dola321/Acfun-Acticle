@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="main_frame_name">
+        <item>热门</item>
+        <item>最新</item>
+        <item>评论</item>
+        <item>收藏</item>
+    </string-array>
+
+    <string-array name="sort_name">
+        <item>回复</item>
+        <item>发布</item>
+    </string-array>
+
+    <string-array name="range_name">
+        <item>今日</item>
+        <item>今周</item>
+    </string-array>
+
+    <string-array name="channel_name">
+        <item>综合</item>
+        <item>工作情感</item>
+        <item>动漫文化</item>
+        <item>漫画小说</item>
+        <item>游戏</item>
+    </string-array>
+
+</resources>
